@@ -1,0 +1,23 @@
+.main{
+    overflow-x: hidden;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    min-height: 100vh;
+}
+.maindiv{
+    margin-top: -100px;
+    /* border: 1px solid red; */
+    padding: 1rem;
+    gap: 1rem;
+    /* margin-top: -100px; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+}

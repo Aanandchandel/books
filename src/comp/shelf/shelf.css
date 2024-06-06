@@ -1,0 +1,31 @@
+.shelf{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 100%;
+    width: 100%;
+}
+.selfh{
+    
+    text-align: center;
+    width: 100%;
+    display: block;
+    
+}
+
+.selfdiv{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* padding: 2.5rem; */
+    padding-top: 5px;
+    width: 100%;
+    height: auto;
+
+}

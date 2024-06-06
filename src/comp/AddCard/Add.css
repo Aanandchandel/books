@@ -1,0 +1,14 @@
+.AddCard{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.AddCard>button{
+    height: 2rem;
+    border-radius: 1.5rem;
+    border: none;
+    width: 80%;
+    background-color: rgb(97, 230, 97);
+    
+}

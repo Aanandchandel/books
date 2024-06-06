@@ -1,0 +1,29 @@
+.Card{
+border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 14rem;
+    width: 13rem;
+    gap: 2rem;
+    padding: 0.5rem;
+    padding-top: 1.5rem;
+}
+
+
+.Card>div{
+    display: flex;
+    gap: 1rem;
+}
+.title{
+    display: inline-block;
+    width: 8rem;
+    font-size: 1rem;
+}
+.Card>div>span{
+    font-size: 1rem;
+}
+
+
