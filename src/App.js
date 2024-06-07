@@ -18,7 +18,7 @@ function App() {
   <Main/></>} />
   <Route path='/books' element={<><Header/>
   <Main/></>} />
-  <Route path='/shelf' element={<Shelf/>}/>
+  <Route path='/books/shelf' element={<Shelf/>}/>
   
   <Route path='*' element={<h1>not found</h1>}/>
   
