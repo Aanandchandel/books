@@ -16,8 +16,12 @@ function App() {
 
   <Route path='/' element={<><Header/>
   <Main/></>} />
+  <Route path='/books' element={<><Header/>
+  <Main/></>} />
   <Route path='/shelf' element={<Shelf/>}/>
+  
   <Route path='*' element={<h1>not found</h1>}/>
+  
 
 
   </Routes> 
